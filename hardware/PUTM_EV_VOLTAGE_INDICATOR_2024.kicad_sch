@@ -927,7 +927,11 @@
 		(at 189.23 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
+<<<<<<< HEAD
 		(uuid "30446ebe-611e-4467-93e3-a70707eab883")
+=======
+		(uuid "5fba5304-93da-433f-8ed0-190f1e43ed69")
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 	)
 	(junction
 		(at 189.23 99.06)
@@ -991,7 +995,21 @@
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "0fdefbac-88a4-4e3e-8b81-83ed10cbf3f5")
+=======
+		(uuid "0d6e4f1e-8485-45f8-a6aa-dd34e08905e0")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f961753-43d5-403b-bbb9-23e31257d2f1")
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 	)
 	(wire
 		(pts
@@ -1105,6 +1123,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 189.23 99.06) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9efc38-c6c1-4e0d-9f06-268087341131")
+	)
+	(wire
+		(pts
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 			(xy 93.98 124.46) (xy 100.33 124.46)
 		)
 		(stroke
@@ -1275,6 +1306,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD
+=======
+			(xy 194.31 114.3) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e932c360-c34f-434d-8b31-e64296969232")
+	)
+	(wire
+		(pts
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 			(xy 73.66 124.46) (xy 93.98 124.46)
 		)
 		(stroke
@@ -1283,6 +1327,7 @@
 		)
 		(uuid "f00e0f38-6c9b-46c4-b3ac-6f9c5b132a74")
 	)
+<<<<<<< HEAD
 	(wire
 		(pts
 			(xy 189.23 99.06) (xy 189.23 101.6)
@@ -1303,6 +1348,8 @@
 		)
 		(uuid "ff8f41dd-a6c4-4b4c-b98e-0d3f5e17b0f1")
 	)
+=======
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 	(rectangle
 		(start 43.18 115.57)
 		(end 67.31 133.35)
@@ -1913,7 +1960,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+=======
+		(property "Footprint" ""
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -2830,7 +2881,11 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+=======
+		(property "Footprint" ""
+>>>>>>> 66917c3a91ab56a708658138f6368f986d32aeb1
 			(at 189.23 114.3 0)
 			(effects
 				(font
