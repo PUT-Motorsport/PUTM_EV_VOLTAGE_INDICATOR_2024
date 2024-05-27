@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cdmm2m50d4000det")(type "KiCad")(uri "${KIPRJMOD}/footprints/cdmm2m50d4000det.kicad_sym")(options "")(descr ""))
+)

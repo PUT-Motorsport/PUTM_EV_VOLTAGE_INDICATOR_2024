@@ -182,208 +182,6 @@
 				)
 			)
 		)
-		(symbol "CDMM:CDMM2M50D4000DET"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RD"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 1.905 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CDMM:CDMM"
-				(at 1.905 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.905 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CDMM2M50D4000DET_0_1"
-				(rectangle
-					(start -2.54 3.175)
-					(end 0.635 1.905)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.54) (xy 1.905 2.54) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 2.54 -1.905)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CDMM2M50D4000DET_1_1"
-				(rectangle
-					(start -3.81 4.445)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.905) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 6.35 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -916,6 +714,208 @@
 				)
 			)
 		)
+		(symbol "cdmm2m50d4000det:CDMM2M50D4000DET"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RD"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "CDMM:CDMM"
+				(at 1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.905 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CDMM2M50D4000DET_0_1"
+				(rectangle
+					(start -2.54 3.175)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy 1.905 2.54) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CDMM2M50D4000DET_1_1"
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 93.98 124.46)
@@ -924,10 +924,10 @@
 		(uuid "13dcf6f9-af5a-492d-8125-f2be50fbb74d")
 	)
 	(junction
-		(at 189.23 114.3)
+		(at 189.23 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "484eee0f-27f1-4e85-88a5-68caf1b7ba7d")
+		(uuid "30446ebe-611e-4467-93e3-a70707eab883")
 	)
 	(junction
 		(at 189.23 99.06)
@@ -985,17 +985,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 109.22) (xy 196.85 109.22)
+			(xy 189.23 109.22) (xy 189.23 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1973b2f8-64da-4ef0-9124-a4dd1c035a59")
+		(uuid "0fdefbac-88a4-4e3e-8b81-83ed10cbf3f5")
 	)
 	(wire
 		(pts
-			(xy 163.83 124.46) (xy 189.23 124.46)
+			(xy 162.56 124.46) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 152.4 124.46)
+			(xy 144.78 124.46) (xy 151.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 215.9 99.06)
+			(xy 201.93 99.06) (xy 204.47 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 53.34) (xy 154.94 53.34)
+			(xy 168.91 53.34) (xy 162.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 152.4 99.06)
+			(xy 144.78 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1105,16 +1105,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 99.06) (xy 189.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9efc38-c6c1-4e0d-9f06-268087341131")
-	)
-	(wire
-		(pts
 			(xy 93.98 124.46) (xy 100.33 124.46)
 		)
 		(stroke
@@ -1125,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 93.98 73.66)
+			(xy 151.13 73.66) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 121.92) (xy 189.23 124.46)
+			(xy 189.23 116.84) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 189.23 99.06)
+			(xy 162.56 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 194.31 109.22)
+			(xy 194.31 53.34) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 189.23 116.84)
+			(xy 189.23 106.68) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 226.06 99.06)
+			(xy 209.55 99.06) (xy 226.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1245,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 53.34) (xy 87.63 53.34)
+			(xy 151.13 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1245,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 189.23 73.66)
+			(xy 189.23 109.22) (xy 196.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b7d177-9e98-493b-bdcd-45448aa820b2")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 189.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1275,16 +1275,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 111.76) (xy 189.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8409dbe-646f-49c5-aefe-c950ac759342")
-	)
-	(wire
-		(pts
 			(xy 73.66 124.46) (xy 93.98 124.46)
 		)
 		(stroke
@@ -1295,13 +1285,23 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 196.85 114.3)
+			(xy 189.23 99.06) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa1483be-46c0-4b60-b1e3-2cea17f88699")
+		(uuid "f5de4708-99be-459e-b034-3faabce36073")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 196.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8f41dd-a6c4-4b4c-b98e-0d3f5e17b0f1")
 	)
 	(rectangle
 		(start 43.18 115.57)
@@ -1351,6 +1351,16 @@
 			(type none)
 		)
 		(uuid d972480b-bd36-40bc-8faa-e288efb747f0)
+	)
+	(text "1*"
+		(exclude_from_sim no)
+		(at 160.02 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bc0073b-af90-415a-8d99-46df4a7ce63f")
 	)
 	(text "AIR HV+\n(Vehicle side)"
 		(exclude_from_sim no)
@@ -1439,6 +1449,16 @@
 	)
 	(text "1*"
 		(exclude_from_sim no)
+		(at 160.02 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bad57f0-1390-42b2-bd38-3978a029c7d3")
+	)
+	(text "1*"
+		(exclude_from_sim no)
 		(at 160.02 101.6 0)
 		(effects
 			(font
@@ -1493,7 +1513,7 @@
 	)
 	(text "250:1\nV_{OUT(3)} = V_{IN(1)} / 250\n60 / 250 = 0.24"
 		(exclude_from_sim no)
-		(at 175.26 64.77 0)
+		(at 208.28 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1511,18 +1531,106 @@
 		)
 		(uuid "ef0f642b-8c79-4636-bd41-ce2bb344b461")
 	)
+	(label "HV+"
+		(at 165.1 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "258e9979-79fe-4160-b185-95907b33d0d1")
+	)
+	(label "GND"
+		(at 165.1 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6151fa86-2480-4647-9d14-bc710c7d82e1")
+	)
+	(label "HV_MES"
+		(at 184.15 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.675 0.675)
+			)
+			(justify left bottom)
+		)
+		(uuid "75785f8a-eb74-4088-9966-9ba9db9b120a")
+	)
+	(label "LED_POW"
+		(at 223.52 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83371d5f-c65c-4ae9-83d1-b4b1230f081d")
+	)
+	(label "REF"
+		(at 190.5 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.675 0.675)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ed1c527-4131-4d66-b973-90662d50d14a")
+	)
+	(label "GND"
+		(at 165.1 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aed5439f-5349-4aa5-b012-1e549f493510")
+	)
+	(label "LED_SINK"
+		(at 214.63 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2a1d74c-2bf2-4f71-aeb6-cdb374c9e05d")
+	)
+	(label "15V+"
+		(at 165.1 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5b39a63-db9b-4e09-b422-9956cf84ab8d")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 73.66 0)
+		(at 156.21 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "15720c2e-0f17-46fc-a938-80d90ab52bc6")
 		(property "Reference" "J9"
-			(at 144.78 76.2 0)
+			(at 153.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1638,7 @@
 			)
 		)
 		(property "Value" "WIRE"
-			(at 144.78 78.74 0)
+			(at 153.67 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 73.66 0)
+			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 73.66 0)
+			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1664,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 73.66 0)
+			(at 156.21 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1766,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "1a20127a-33df-4d85-852d-9a9d2c42aab7")
 		(property "Reference" "J1"
@@ -1741,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 			(at 231.14 99.06 0)
 			(effects
 				(font
@@ -1782,7 +1890,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 189.23 109.22 0)
+		(at 189.23 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1790,7 +1898,7 @@
 		(dnp no)
 		(uuid "37c02b4f-c291-44c5-95a6-1c964aca3c89")
 		(property "Reference" "R2"
-			(at 185.42 107.95 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,15 +1906,15 @@
 			)
 		)
 		(property "Value" "67k"
-			(at 185.42 110.49 0)
+			(at 185.42 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 109.22 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 189.23 109.22 0)
+			(at 189.23 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 			(at 231.14 111.76 0)
 			(effects
 				(font
@@ -1913,16 +2021,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 53.34 0)
+		(at 156.21 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3e799a57-694f-4227-94f6-176ee7c35a87")
 		(property "Reference" "J10"
-			(at 144.78 46.99 0)
+			(at 153.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2038,7 @@
 			)
 		)
 		(property "Value" "WIRE"
-			(at 144.78 49.53 0)
+			(at 153.67 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +2046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 53.34 0)
+			(at 156.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +2055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 53.34 0)
+			(at 156.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +2064,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 147.32 53.34 0)
+			(at 156.21 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2091,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "4583eb37-59cc-4f7b-a1d3-5eaea9ad2846")
 		(property "Reference" "J7"
@@ -2047,7 +2155,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "4b5f5d41-283b-450c-ac60-6ba1c5dd7da7")
 		(property "Reference" "J4"
@@ -2106,8 +2214,78 @@
 		)
 	)
 	(symbol
+		(lib_id "cdmm2m50d4000det:CDMM2M50D4000DET")
+		(at 175.26 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504db111-f687-4d0f-a799-366cfe17fc54")
+		(property "Reference" "RD1"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CDMM20M0F2500DET"
+			(at 175.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CDMM20M0F2500DET"
+			(at 177.165 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.165 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba5b66ca-e32d-46dd-9904-c1e12e8a79c4")
+		)
+		(pin "1"
+			(uuid "bb629e7f-2dd5-40b1-bffe-8f6022b40152")
+		)
+		(pin "2"
+			(uuid "56b6aff3-9778-4b85-9bb9-6c9350ad71e4")
+		)
+		(instances
+			(project "PUTM_EV_VOLTAGE_INDICATOR_2024"
+				(path "/6df23436-0088-40fa-bbcf-5ca2e656deeb"
+					(reference "RD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 149.86 53.34 0)
+		(at 157.48 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2116,23 +2294,23 @@
 		(dnp no)
 		(uuid "581243d6-e9db-4ec5-a52d-d12695ca530a")
 		(property "Reference" "J11"
-			(at 157.48 55.88 0)
+			(at 165.1 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SCREW_TERMINAL"
-			(at 157.48 58.42 0)
+		(property "Value" "PCB_PAD"
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 53.34 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2328,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 149.86 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2355,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "588dd7ca-c872-491e-8894-73bc7a019012")
 		(property "Reference" "J6"
@@ -2237,16 +2415,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 157.48 124.46 0)
+		(at 156.21 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "5afa89e3-e5ea-4b72-a5b0-9233c8918721")
 		(property "Reference" "J14"
-			(at 154.94 118.11 0)
+			(at 153.67 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2432,7 @@
 			)
 		)
 		(property "Value" "WIRE"
-			(at 154.94 120.65 0)
+			(at 153.67 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 124.46 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 124.46 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2458,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 157.48 124.46 0)
+			(at 156.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,16 +2480,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 157.48 99.06 0)
+		(at 156.21 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6005bf0f-c3f4-47ca-93a4-0a96ebf1ccfd")
 		(property "Reference" "J13"
-			(at 154.94 101.6 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2497,7 @@
 			)
 		)
 		(property "Value" "WIRE"
-			(at 154.94 104.14 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 99.06 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 99.06 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2523,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 157.48 99.06 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,7 +2545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 99.06 90)
+		(at 207.01 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2375,7 +2553,7 @@
 		(dnp no)
 		(uuid "651e774b-b216-4b7a-9049-a4eec4d979a5")
 		(property "Reference" "R1"
-			(at 218.44 93.98 90)
+			(at 207.01 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,15 +2561,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 218.44 96.52 90)
+			(at 207.01 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.44 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 99.06 0)
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2587,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 99.06 0)
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2612,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 149.86 73.66 0)
+		(at 157.48 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2443,23 +2621,23 @@
 		(dnp no)
 		(uuid "7c02ea2b-9f40-41ec-8fef-be900b4f5724")
 		(property "Reference" "J12"
-			(at 157.48 67.31 0)
+			(at 165.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SCREW_TERMINAL"
-			(at 157.48 69.85 0)
+		(property "Value" "PCB_PAD"
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 73.66 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2655,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 149.86 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2677,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 158.75 124.46 0)
+		(at 157.48 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2508,7 +2686,7 @@
 		(dnp no)
 		(uuid "7fcf78ee-83aa-4dac-8ea8-865e152aa94e")
 		(property "Reference" "J16"
-			(at 161.29 129.54 0)
+			(at 160.02 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,15 +2694,15 @@
 			)
 		)
 		(property "Value" "PCB_PAD"
-			(at 161.29 132.08 0)
+			(at 160.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 124.46 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2711,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 124.46 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2720,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 158.75 124.46 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2742,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 158.75 99.06 0)
+		(at 157.48 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2573,7 +2751,7 @@
 		(dnp no)
 		(uuid "9c4bc192-1460-4986-9dca-a320d89049c7")
 		(property "Reference" "J15"
-			(at 161.29 91.44 0)
+			(at 160.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,15 +2759,15 @@
 			)
 		)
 		(property "Value" "PCB_PAD"
-			(at 161.29 93.98 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 158.75 99.06 0)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2785,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 158.75 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 189.23 119.38 0)
+		(at 189.23 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2637,7 +2815,7 @@
 		(dnp no)
 		(uuid "9ced0766-68a9-400d-be40-02c9ad13e28e")
 		(property "Reference" "R3"
-			(at 185.42 118.11 0)
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,15 +2823,15 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 185.42 120.65 0)
+			(at 185.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 119.38 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 119.38 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2849,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 189.23 119.38 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2879,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a4e8685d-eeb5-4a03-82cf-7f80840961ba")
 		(property "Reference" "J22"
@@ -2760,119 +2938,13 @@
 		)
 	)
 	(symbol
-		(lib_id "CDMM:CDMM2M50D4000DET")
-		(at 175.26 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a84596c3-cf53-4b8b-b664-05419ade8a27")
-		(property "Reference" "RD1"
-			(at 175.26 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CDMM20M0F2500"
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CDMM:CDMM"
-			(at 177.165 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/68041/cdmm.pdf"
-			(at 177.165 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Url" "https://www.mouser.pl/ProductDetail/Vishay-Techno/CDMM20M0F2500DET?qs=pUKx8fyJudDtrYAwlAh%252BkQ%3D%3D"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CDMM20M0F2500DET"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CDMM20M0F2500DET"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Techno/CDMM20M0F2500DET?qs=pUKx8fyJudDtrYAwlAh%252BkQ%3D%3D"
-			(at 175.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8c1cdb7-f0e1-42c1-a10c-4c96d04dcab6")
-		)
-		(pin "2"
-			(uuid "8a44a2d8-1d3c-4368-9706-c9c7609d7738")
-		)
-		(pin "3"
-			(uuid "6e09fe74-205e-4360-86c7-e9657bce848b")
-		)
-		(instances
-			(project "PUTM_EV_VOLTAGE_INDICATOR_2024"
-				(path "/6df23436-0088-40fa-bbcf-5ca2e656deeb"
-					(reference "RD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
 		(at 68.58 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "b4467c02-aad3-4c7a-9d52-a90fac94c878")
 		(property "Reference" "J23"
@@ -2936,7 +3008,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "be02e715-d247-4c10-873c-928fc3584dc5")
 		(property "Reference" "J2"
@@ -3001,7 +3073,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c2b33c8b-a58a-4a82-85ea-417e3efd292c")
 		(property "Reference" "J5"
@@ -3065,7 +3137,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ce7eb428-261a-4837-a318-75956e5df795")
 		(property "Reference" "J3"
@@ -3129,23 +3201,25 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "dfaf48b2-4b7c-4ae3-b425-0977e2d1b905")
 		(property "Reference" "D1"
-			(at 255.27 104.14 90)
+			(at 254 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "RED"
-			(at 255.27 106.68 90)
+		(property "Value" "C4SMA-RGY-CT24QBB2"
+			(at 254 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3197,7 +3271,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e179a30d-2f0f-4592-a0ff-097ad2c39fac")
 		(property "Reference" "J8"
@@ -3261,7 +3335,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ea1f75fe-0124-4f69-a44b-8e8312689bec")
 		(property "Reference" "J18"
@@ -3326,7 +3400,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "efff1492-13ba-4946-8a12-da0abc4976a6")
 		(property "Reference" "J21"
@@ -3390,7 +3464,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f016f74b-34e1-4d28-8307-a15d8cec87ec")
 		(property "Reference" "J19"
@@ -3455,7 +3529,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "fde79e61-4f5c-4036-b5ba-0f7b4cf96abf")
 		(property "Reference" "J24"
